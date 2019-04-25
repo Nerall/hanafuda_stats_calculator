@@ -5,7 +5,7 @@ RELEASE_FLAGS = -O0 -DNGDEBUG
 
 CC = gcc
 CPPFLAGS = -MMD
-CFLAGS = -Wall -Wextra -std=c99 ${DEBUG_FLAGS}
+CFLAGS = -Wall -Wextra -std=c99 ${RELEASE_FLAGS}
 
 EXE := hanafuda_stats_calculator
 SRC := $(wildcard src/*.c)
