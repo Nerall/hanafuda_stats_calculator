@@ -50,7 +50,9 @@ the results.
 To build the project, run `make` at the root of the project.
 To clean what you made, run `make clean` at the root of the project.
 To run the program, do the following:
-* `./hanafuda_stats_calculator` [ARG]
+
+* `./hanafuda_stats_calculator [ARG]`
+
 [ARG] being an optional value for the number of cards for which you want to
 have results.
 If no ARG is provided, it will compute results for every
